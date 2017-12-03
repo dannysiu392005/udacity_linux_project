@@ -71,13 +71,13 @@ The IP address is 18.216.177.62 and the URL is http://18.216.177.62/ and the por
 - Type `sudo mkdir FlaskApp` and `cd` into `FlaskApp`
 - Git clone the item catalog project
 - Rename the directory to `FlaskApp`
-- The directory structure will be
-`|var`
-`|--www`
-`|----FlaskApp`
-`|------FlaskApp`
-`|--------static`
-`|--------templates`
+- The directory structure will be  
+`|var`  
+`|--www`  
+`|----FlaskApp`  
+`|------FlaskApp`  
+`|--------static`  
+`|--------templates`  
 - Rename `application.py` to `__init__.py`
 - You may need to change the credentials in `fb_client_secrets.json` and in `/templates/login.html`
 - Change `engine = create_engine('sqlite:///categoryitemwithusers.db')` to `engine = create_engine('postgresql://catalog:p@s5wOrd@localhost/catalog')`
